@@ -1,0 +1,30 @@
+.card {
+    border-radius: 15px;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 15px;
+    opacity: 70%;
+}
+
+.card p {
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ft {
+    text-align: center;
+}
+
+.fl {
+    margin-left: 20px;
+    margin-right: 20px;
+}
