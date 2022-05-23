@@ -8,11 +8,12 @@
 
 .card img {
     border-radius: 15px;
-    opacity: 70%;
 }
 
 .card p {
-    font-size: large;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.6);
+    font-size: 3rem;
     font-weight: bold;
     position: absolute;
     bottom: 5%;
@@ -27,4 +28,9 @@
 .fl {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.fi {
+    width: 500px;
+    border-radius: 20px;
 }
